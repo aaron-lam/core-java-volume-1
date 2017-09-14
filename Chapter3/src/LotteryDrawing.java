@@ -2,6 +2,8 @@ import java.util.*;
 
 /**
  * Generate custom amount of random numbers in a custom range
+ * @version 1.8.0 09-13-2017
+ * @author Aaron Lam
  */
 public class LotteryDrawing {
 

@@ -1,5 +1,10 @@
 import java.util.*;
 
+/**
+ * Calculate the possibility of getting lottery prize
+ * @version 1.8.0 09-13-2017
+ * @author Aaron Lam
+ */
 public class LotteryOdds {
     /**
      * compute binomial coefficient n * (n-1) * (n-2) * ... * (n-k+1) / (1 * 2 * ... * k)
@@ -10,9 +15,6 @@ public class LotteryOdds {
         return lotteryOdds;
     }
 
-    /**
-     * Calculate the possibility of getting lottery prize
-     */
     public static void main(String args[]){
         Scanner in = new Scanner(System.in);
 
