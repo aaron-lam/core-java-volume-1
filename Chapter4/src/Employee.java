@@ -2,6 +2,7 @@ import java.time.*;
 import java.util.Random;
 
 /**
+ * This program demonstrates object oriented programming in java
  * Employee class stores employee name, salary, and hire date.
  * @version 1.8.0 09-14-2017
  * @author Aaron Lam
@@ -64,6 +65,10 @@ public class Employee {
         return hireDay;
     }
 
+    public String toString(){
+        return "name = " + this.getName() + ", id = " + this.getId() + ", salary = " + this.getSalary() + ", hire date: " + this.getHireDay();
+    }
+
     /**
      * Raises the salary of an employee.
      * @param byPercent the percent of raising salary (e.g: 10 means 10%)
@@ -72,4 +77,5 @@ public class Employee {
         double raise = salary * byPercent / 100;
         salary += raise;
     }
+
 }
