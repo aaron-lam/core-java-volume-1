@@ -66,16 +66,15 @@ public class Employee {
     }
 
     public String toString(){
-        return "name = " + this.getName() + ", id = " + this.getId() + ", salary = " + this.getSalary() + ", hire date: " + this.getHireDay();
+        return "Employee: [name = " + this.getName() + ", id = " + this.getId() + ", salary = " + this.getSalary() + ", hire date: " + this.getHireDay() + "]";
     }
 
     /**
      * Raises the salary of an employee.
      * @param byPercent the percent of raising salary (e.g: 10 means 10%)
      */
-    public void raiseSalary (double byPercent){
+    public void raiseSalary (double byPercent) {
         double raise = salary * byPercent / 100;
         salary += raise;
     }
-
 }

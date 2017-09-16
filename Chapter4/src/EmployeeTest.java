@@ -14,12 +14,11 @@ public class EmployeeTest {
         staff[2] = new Employee(60000);
         staff[3] = new Employee();
         for (Employee aEmployee : staff)
-            System.out.println(aEmployee.toString());
+            System.out.println(aEmployee);
         System.out.println("After raising the salary: ");
         for (Employee aEmployee : staff){
             aEmployee.raiseSalary(12);
             System.out.println(aEmployee.getName() + ": " + aEmployee.getSalary());
         }
     }
-
 }
