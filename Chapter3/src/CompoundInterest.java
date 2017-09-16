@@ -44,5 +44,4 @@ public class CompoundInterest {
         System.out.println();
         printBalanceTable(balances);
     }
-
 }

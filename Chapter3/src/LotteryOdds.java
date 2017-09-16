@@ -24,5 +24,4 @@ public class LotteryOdds {
         int lotteryOdds = computeBinomialCoefficient(1, numNeedToDraw, numHighestDraw);
         System.out.println("Your odds are 1 in " + lotteryOdds + ". Good Luck!");
     }
-
 }

@@ -34,5 +34,4 @@ public class LotteryDrawing {
         for(int i : result)
             System.out.println(i);
     }
-
 }
