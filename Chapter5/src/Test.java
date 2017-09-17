@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 /**
- * Test Person class, Student class, Employee class, and Manager Class
+ * Test Person class, Student class, Employee class, and Manager Class. Also use ArrayList in Test.
  * @version 1.8.0 09-16-2017
  * @author Aaron Lam
  */
