@@ -1,5 +1,3 @@
-import java.time.*;
-
 /**
  * Test the Employee class
  * @version 1.8.0 09-14-2017
