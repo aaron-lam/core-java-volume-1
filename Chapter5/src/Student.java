@@ -12,6 +12,6 @@ public class Student extends Person{
     }
 
     public String getDescription(){
-        return "a student majoring in" + major;
+        return "a student majoring in " + major;
     }
 }
