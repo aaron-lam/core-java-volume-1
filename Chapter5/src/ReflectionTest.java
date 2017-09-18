@@ -2,7 +2,6 @@ import java.util.*;
 import java.lang.reflect.*;
 
 public class ReflectionTest {
-
     public static void main(String args[]){
         //read class name from command line args or user input
         String name;
@@ -12,7 +11,6 @@ public class ReflectionTest {
             System.out.println("Enter class name (e.g. java.util.Date): ");
             name = in.next();
         }
-
         try{
             //print class name and superclass name (if != Object)
             Class cl = Class.forName(name);
