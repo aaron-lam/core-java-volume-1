@@ -1,6 +1,11 @@
 import java.util.*;
 import java.lang.reflect.*;
 
+/**
+ * This program uses reflection to print all features of a class
+ * @version 1.8.0 09-18-2017
+ * @author Aaron Lam
+ */
 public class ReflectionTest {
     public static void main(String args[]){
         //read class name from command line args or user input
