@@ -7,7 +7,6 @@ import java.util.Random;
  * @author Aaron Lam
  */
 public class Employee extends Person{
-
     private static int nextId;
 
     private int id;
