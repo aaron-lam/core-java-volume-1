@@ -6,7 +6,6 @@ import java.util.*;
  * @author Aaron Lam
  */
 public class EnumTest {
-
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
         System.out.println("Enter a size: (SMALL, MEDIUM, LARGE, EXTRA_LARGE) ");
