@@ -6,7 +6,6 @@ import java.util.*;
  * @author Aaron Lam
  */
 public class LotteryOdds {
-
     //compute binomial coefficient n * (n-1) * (n-2) * ... * (n-k+1) / (1 * 2 * ... * k)
     private static int computeBinomialCoefficient(int lotteryOdds, int numNeedToDraw, int numHighestDraw){
         for(int i = 1; i <= numNeedToDraw; i++)

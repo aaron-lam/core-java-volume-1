@@ -6,7 +6,6 @@ import java.util.*;
  * @author Aaron Lam
  */
 public class LotteryDrawing {
-
     public static void main(String args[]) {
         //read user input
         Scanner in = new Scanner(System.in);

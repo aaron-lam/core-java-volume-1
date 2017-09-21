@@ -4,7 +4,6 @@
  * @author Aaron Lam
  */
 public class CompoundInterest {
-
     private static final double STARTRATE = 10;
     private static final int NUMOFRATES = 6;
     private static final int NUMOFYEARS = 10;
