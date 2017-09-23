@@ -8,7 +8,6 @@ import java.util.Random;
  * @author Aaron Lam
  */
 public class Employee {
-
     private static int nextId;
 
     private int id;

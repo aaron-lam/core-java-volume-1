@@ -4,7 +4,6 @@
  * @author Aaron Lam
  */
 public class EmployeeTest {
-
     public static void main(String args[]){
         Employee[] staff = new Employee[4];
         staff[0] = new Employee("Aaron", 120000, 2017, 6, 24);
