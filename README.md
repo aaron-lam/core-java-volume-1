@@ -1,2 +1,3 @@
-# CoreJavaVol1
-Collect great examples shown in Core Java Volume 1. Not just copy and paste, but also did optimization.
+# Core Java Volume 1
+
+This repor collects good examples shown in Core Java Volume 1. I am not only just copy and paste the source code, but also did some code optimization.
